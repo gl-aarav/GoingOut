@@ -35,6 +35,7 @@ public class GoingOut
 			decision = ("dine at Elephant Bar");
 		else if (randNum == 5)
 			decision = ("stay in and watch TV");
+		in.close();
 		
 	}
 	public void printOut()
